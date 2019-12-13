@@ -1,3 +1,10 @@
+/*
+ * Simple System Info
+ * by Lucio Paiva
+ * https://github.com/luciopaiva/java-simple-system-info
+ *
+ * Feel free to use and change this class as much as you want, but please keep this header.
+ */
 package com.luciopaiva;
 
 import com.sun.management.OperatingSystemMXBean;
