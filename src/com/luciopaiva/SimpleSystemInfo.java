@@ -52,6 +52,9 @@ class SimpleSystemInfo {
     /**
      * On Linux, this is the average system load calculated over a period of 1 minute (matches the one reported by top).
      * Not sure about other systems.
+     *
+     * See this excellent article on the Linux average system load metric:
+     * http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html
      */
     double getSystemLoadAverage() {
         return operatingSystemMXBean.getSystemLoadAverage();
